@@ -1,0 +1,6 @@
+framework module Pods_StarGazrUITests {
+  umbrella header "Pods-StarGazrUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

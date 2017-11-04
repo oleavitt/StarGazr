@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03EA64A7B10EFE6EA5E60733 /* Pods_StarGazr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F5D7FF544F0ED0F394F031 /* Pods_StarGazr.framework */; };
+		05128C25697BC47C921F3F72 /* Pods_StarGazrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E2E7F1FAE1EB1CE6609E9 /* Pods_StarGazrUITests.framework */; };
+		8C0D98921CC726930051AED0 /* SGObjectEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D98901CC726930051AED0 /* SGObjectEntity+CoreDataProperties.swift */; };
+		8C0D98931CC726930051AED0 /* SGObjectEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D98911CC726930051AED0 /* SGObjectEntity.swift */; };
+		8C0D98951CC729BB0051AED0 /* SGCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D98941CC729BB0051AED0 /* SGCoreDataStack.swift */; };
 		8C8D564F1CAA2FF2001A409D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D564E1CAA2FF2001A409D /* AppDelegate.swift */; };
 		8C8D56511CAA2FF2001A409D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D56501CAA2FF2001A409D /* ViewController.swift */; };
 		8C8D56541CAA2FF2001A409D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D56521CAA2FF2001A409D /* Main.storyboard */; };
@@ -15,6 +20,12 @@
 		8C8D565C1CAA2FF2001A409D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D565A1CAA2FF2001A409D /* LaunchScreen.storyboard */; };
 		8C8D56671CAA2FF2001A409D /* StarGazrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D56661CAA2FF2001A409D /* StarGazrTests.swift */; };
 		8C8D56721CAA2FF2001A409D /* StarGazrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D56711CAA2FF2001A409D /* StarGazrUITests.swift */; };
+		8C8D56811CAA3172001A409D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D56801CAA3172001A409D /* TestViewController.swift */; };
+		8C8D56841CAA3358001A409D /* UIApplication+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D56831CAA3358001A409D /* UIApplication+Ext.swift */; };
+		8C8D56871CAA3907001A409D /* DataInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D56861CAA3907001A409D /* DataInitializer.swift */; };
+		8CFB27231CAC48E5000AF67B /* SkyMapDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB27221CAC48E5000AF67B /* SkyMapDataSource.swift */; };
+		8CFB27261CACBD3F000AF67B /* SGObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB27251CACBD3F000AF67B /* SGObject.swift */; };
+		94C7A243A42760B45F747AC9 /* Pods_StarGazrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4499DEE270BF11ECD8391 /* Pods_StarGazrTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025ED37F18E19BFAC7290816 /* Pods-StarGazrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarGazrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarGazrTests/Pods-StarGazrTests.release.xcconfig"; sourceTree = "<group>"; };
+		03B4499DEE270BF11ECD8391 /* Pods_StarGazrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarGazrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE43393E66F9FCEDA1E9427 /* Pods-StarGazrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarGazrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarGazrTests/Pods-StarGazrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1BE734A7D2087B8809F5E6 /* Pods-StarGazrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarGazrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarGazrUITests/Pods-StarGazrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60F5D7FF544F0ED0F394F031 /* Pods_StarGazr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarGazr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C474379FEA1C2411A5749A /* Pods-StarGazr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarGazr.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarGazr/Pods-StarGazr.release.xcconfig"; sourceTree = "<group>"; };
+		8C0D98901CC726930051AED0 /* SGObjectEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SGObjectEntity+CoreDataProperties.swift"; path = "Entities/SGObjectEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8C0D98911CC726930051AED0 /* SGObjectEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SGObjectEntity.swift; path = Entities/SGObjectEntity.swift; sourceTree = "<group>"; };
+		8C0D98941CC729BB0051AED0 /* SGCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGCoreDataStack.swift; sourceTree = "<group>"; };
 		8C8D564B1CAA2FF2001A409D /* StarGazr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarGazr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8D564E1CAA2FF2001A409D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C8D56501CAA2FF2001A409D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +69,14 @@
 		8C8D566D1CAA2FF2001A409D /* StarGazrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarGazrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8D56711CAA2FF2001A409D /* StarGazrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGazrUITests.swift; sourceTree = "<group>"; };
 		8C8D56731CAA2FF2001A409D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8D56801CAA3172001A409D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		8C8D56831CAA3358001A409D /* UIApplication+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ext.swift"; sourceTree = "<group>"; };
+		8C8D56861CAA3907001A409D /* DataInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInitializer.swift; sourceTree = "<group>"; };
+		8CFB27221CAC48E5000AF67B /* SkyMapDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyMapDataSource.swift; sourceTree = "<group>"; };
+		8CFB27251CACBD3F000AF67B /* SGObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGObject.swift; sourceTree = "<group>"; };
+		A29DF9A9B504FA92567E9AED /* Pods-StarGazr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarGazr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarGazr/Pods-StarGazr.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BAF02B95036E913B72649E /* Pods-StarGazrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarGazrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarGazrUITests/Pods-StarGazrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED5E2E7F1FAE1EB1CE6609E9 /* Pods_StarGazrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarGazrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03EA64A7B10EFE6EA5E60733 /* Pods_StarGazr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C7A243A42760B45F747AC9 /* Pods_StarGazrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05128C25697BC47C921F3F72 /* Pods_StarGazrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11E7A562B8A81A3F7C86BC78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A29DF9A9B504FA92567E9AED /* Pods-StarGazr.debug.xcconfig */,
+				84C474379FEA1C2411A5749A /* Pods-StarGazr.release.xcconfig */,
+				1BE43393E66F9FCEDA1E9427 /* Pods-StarGazrTests.debug.xcconfig */,
+				025ED37F18E19BFAC7290816 /* Pods-StarGazrTests.release.xcconfig */,
+				D8BAF02B95036E913B72649E /* Pods-StarGazrUITests.debug.xcconfig */,
+				4B1BE734A7D2087B8809F5E6 /* Pods-StarGazrUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C15EDF31CC9C6B400F7994E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D98901CC726930051AED0 /* SGObjectEntity+CoreDataProperties.swift */,
+				8C0D98911CC726930051AED0 /* SGObjectEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		8C7651EF1CC9BF520020A7EB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		8C8D56421CAA2FF2001A409D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,8 @@
 				8C8D56651CAA2FF2001A409D /* StarGazrTests */,
 				8C8D56701CAA2FF2001A409D /* StarGazrUITests */,
 				8C8D564C1CAA2FF2001A409D /* Products */,
+				11E7A562B8A81A3F7C86BC78 /* Pods */,
+				937DC8D58CD1BA449DD98E0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +161,11 @@
 		8C8D564D1CAA2FF2001A409D /* StarGazr */ = {
 			isa = PBXGroup;
 			children = (
+				8C7651EF1CC9BF520020A7EB /* Common */,
+				8CFB27241CACBCE2000AF67B /* Model */,
+				8C8D56851CAA384A001A409D /* Data */,
+				8C8D56821CAA3310001A409D /* Extensions */,
+				8C8D567F1CAA313E001A409D /* ViewControllers */,
 				8C8D564E1CAA2FF2001A409D /* AppDelegate.swift */,
 				8C8D56501CAA2FF2001A409D /* ViewController.swift */,
 				8C8D56521CAA2FF2001A409D /* Main.storyboard */,
@@ -128,6 +195,51 @@
 			path = StarGazrUITests;
 			sourceTree = "<group>";
 		};
+		8C8D567F1CAA313E001A409D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D56801CAA3172001A409D /* TestViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C8D56821CAA3310001A409D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D56831CAA3358001A409D /* UIApplication+Ext.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8C8D56851CAA384A001A409D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8C15EDF31CC9C6B400F7994E /* Entities */,
+				8C8D56861CAA3907001A409D /* DataInitializer.swift */,
+				8CFB27221CAC48E5000AF67B /* SkyMapDataSource.swift */,
+				8C0D98941CC729BB0051AED0 /* SGCoreDataStack.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8CFB27241CACBCE2000AF67B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB27251CACBD3F000AF67B /* SGObject.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		937DC8D58CD1BA449DD98E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60F5D7FF544F0ED0F394F031 /* Pods_StarGazr.framework */,
+				03B4499DEE270BF11ECD8391 /* Pods_StarGazrTests.framework */,
+				ED5E2E7F1FAE1EB1CE6609E9 /* Pods_StarGazrUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C8D56761CAA2FF2001A409D /* Build configuration list for PBXNativeTarget "StarGazr" */;
 			buildPhases = (
+				46BFB260CF8FCEDA4AEB8555 /* [CP] Check Pods Manifest.lock */,
 				8C8D56471CAA2FF2001A409D /* Sources */,
 				8C8D56481CAA2FF2001A409D /* Frameworks */,
 				8C8D56491CAA2FF2001A409D /* Resources */,
+				6E4D5B1E8075ECA642FB83E7 /* [CP] Embed Pods Frameworks */,
+				E679CF740406B6AC15FAB096 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C8D56791CAA2FF2001A409D /* Build configuration list for PBXNativeTarget "StarGazrTests" */;
 			buildPhases = (
+				D9CF955BDA1DEB89D610A76F /* [CP] Check Pods Manifest.lock */,
 				8C8D565E1CAA2FF2001A409D /* Sources */,
 				8C8D565F1CAA2FF2001A409D /* Frameworks */,
 				8C8D56601CAA2FF2001A409D /* Resources */,
+				7DAB4B6B868F4D014423833C /* [CP] Embed Pods Frameworks */,
+				23D21FDC7A1751F364C4DBCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C8D567C1CAA2FF2001A409D /* Build configuration list for PBXNativeTarget "StarGazrUITests" */;
 			buildPhases = (
+				9A87E6DBBD4ACC4B8E534192 /* [CP] Check Pods Manifest.lock */,
 				8C8D56691CAA2FF2001A409D /* Sources */,
 				8C8D566A1CAA2FF2001A409D /* Frameworks */,
 				8C8D566B1CAA2FF2001A409D /* Resources */,
+				6D6E71619A7ABD7ABEB70A7E /* [CP] Embed Pods Frameworks */,
+				7D4757EEC9DF876AEDDF918F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,18 +312,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Oren Leavitt";
 				TargetAttributes = {
 					8C8D564A1CAA2FF2001A409D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2W2GK9ZGZC;
+						LastSwiftMigration = 0900;
 					};
 					8C8D56611CAA2FF2001A409D = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0900;
 						TestTargetID = 8C8D564A1CAA2FF2001A409D;
 					};
 					8C8D566C1CAA2FF2001A409D = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0900;
 						TestTargetID = 8C8D564A1CAA2FF2001A409D;
 					};
 				};
@@ -254,14 +379,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23D21FDC7A1751F364C4DBCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarGazrTests/Pods-StarGazrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46BFB260CF8FCEDA4AEB8555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarGazr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6E71619A7ABD7ABEB70A7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarGazrUITests/Pods-StarGazrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E4D5B1E8075ECA642FB83E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarGazr/Pods-StarGazr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarGazr/Pods-StarGazr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4757EEC9DF876AEDDF918F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarGazrUITests/Pods-StarGazrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DAB4B6B868F4D014423833C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarGazrTests/Pods-StarGazrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A87E6DBBD4ACC4B8E534192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarGazrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CF955BDA1DEB89D610A76F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarGazrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E679CF740406B6AC15FAB096 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarGazr/Pods-StarGazr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C8D56471CAA2FF2001A409D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8D56871CAA3907001A409D /* DataInitializer.swift in Sources */,
 				8C8D56511CAA2FF2001A409D /* ViewController.swift in Sources */,
+				8CFB27261CACBD3F000AF67B /* SGObject.swift in Sources */,
 				8C8D564F1CAA2FF2001A409D /* AppDelegate.swift in Sources */,
+				8CFB27231CAC48E5000AF67B /* SkyMapDataSource.swift in Sources */,
+				8C8D56841CAA3358001A409D /* UIApplication+Ext.swift in Sources */,
+				8C8D56811CAA3172001A409D /* TestViewController.swift in Sources */,
 				8C8D56571CAA2FF2001A409D /* StarGazr.xcdatamodeld in Sources */,
+				8C0D98921CC726930051AED0 /* SGObjectEntity+CoreDataProperties.swift in Sources */,
+				8C0D98951CC729BB0051AED0 /* SGCoreDataStack.swift in Sources */,
+				8C0D98931CC726930051AED0 /* SGObjectEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,13 +610,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -371,13 +664,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -396,6 +697,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -403,68 +705,94 @@
 		};
 		8C8D56771CAA2FF2001A409D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29DF9A9B504FA92567E9AED /* Pods-StarGazr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StarGazr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleavittapps.StarGazr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		8C8D56781CAA2FF2001A409D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C474379FEA1C2411A5749A /* Pods-StarGazr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StarGazr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleavittapps.StarGazr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		8C8D567A1CAA2FF2001A409D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE43393E66F9FCEDA1E9427 /* Pods-StarGazrTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StarGazrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleavittapps.StarGazrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarGazr.app/StarGazr";
 			};
 			name = Debug;
 		};
 		8C8D567B1CAA2FF2001A409D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025ED37F18E19BFAC7290816 /* Pods-StarGazrTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StarGazrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleavittapps.StarGazrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarGazr.app/StarGazr";
 			};
 			name = Release;
 		};
 		8C8D567D1CAA2FF2001A409D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BAF02B95036E913B72649E /* Pods-StarGazrUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = StarGazrUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleavittapps.StarGazrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = StarGazr;
 			};
 			name = Debug;
 		};
 		8C8D567E1CAA2FF2001A409D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1BE734A7D2087B8809F5E6 /* Pods-StarGazrUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = StarGazrUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleavittapps.StarGazrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = StarGazr;
 			};
 			name = Release;
@@ -488,6 +816,7 @@
 				8C8D56781CAA2FF2001A409D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C8D56791CAA2FF2001A409D /* Build configuration list for PBXNativeTarget "StarGazrTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +825,7 @@
 				8C8D567B1CAA2FF2001A409D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C8D567C1CAA2FF2001A409D /* Build configuration list for PBXNativeTarget "StarGazrUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +834,7 @@
 				8C8D567E1CAA2FF2001A409D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
