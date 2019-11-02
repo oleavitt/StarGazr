@@ -60,7 +60,7 @@ class TestViewController: UIViewController {
         return NSLocalizedString("\(appName) v\(shortVersionString).\(build)", comment: "App version info format")
     }
     
-    func dataCreated() {
+    @objc func dataCreated() {
         debugPrint("dataCreated")
         DispatchQueue.main.async { [weak self] in
             if SkyMapDataSource.sharedInstance.objects.count > 0 {
